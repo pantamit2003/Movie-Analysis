@@ -60,4 +60,42 @@ The IMDB Top 250 Movies Excel file serves as a valuable resource for movie enthu
 4. Excel Text to Columns Transformation: Is transformation ke liye Excel ke Text to Columns feature ka istemal kiya gaya hai, jisse data ko alag-alag columns mein split kiya ja sakta hai.
 
 
+# Question to Answer 
+1.	How many unique release years are there for movies?
+  
+2.	Which release year has the highest number of movie releases?
+	
+3.	In which month were the most movies released?
+	
+4.	Which country has the highest number of movies?
+
+5.	From which country has the highest revenue been generated?
+
+6.	How many movies have the minimum budget and how many have the maximum budget?
+    
+7.	How many movies have the minimum domestic gross and how many have the maximum domestic gross?
+	
+8.	Which movie has the highest domestic gross?
+	
+9.	Which movie has the highest worldwide gross?
+
+10.	TOP 3  movie  that had the highest budget?
+	
+11.	TOP 3 movie that  had the lowest budget?
+	
+12.	What is the total budget of all movies released in 1994?
+	
+13.	How many movies were released in India?
+   
+14.	How many movies have a budget greater than $50,000,000?
+   
+15.	Which movie has the highest rating?
+	
+16.	How many movies that have rating greater than 8.8 IMDB, with their world wide collection
+
+
+
+
+ 
+
 

@@ -94,6 +94,10 @@ The IMDB Top 250 Movies Excel file serves as a valuable resource for movie enthu
 16.	How many movies that have rating greater than 8.8 IMDB, with their world wide collection
 
 
+# code 
+  For the  rest of code,check imbd project.sqlfile
+
+
 
 
  

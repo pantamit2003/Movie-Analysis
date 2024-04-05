@@ -95,26 +95,9 @@ The IMDB Top 250 Movies Excel file serves as a valuable resource for movie enthu
 
 
 # code 
-  For the  rest of code,check https://github.com/pantamit2003/Movie-Analysis/blob/main/imbd%20project.sql 
+  For code,check https://github.com/pantamit2003/Movie-Analysis/blob/main/imbd%20project.sql 
 
-  create database movies_collection; 
 
-use movies_collection; 
-
-CREATE TABLE movies (
-    MovieID INT AUTO_INCREMENT PRIMARY KEY,
-    MovieName VARCHAR(255) NOT NULL,
-    Rating DECIMAL(3,1),
-    CountOfRatings VARCHAR(255),
-    ReleaseDate VARCHAR(255),
-    Month VARCHAR(255),
-    Year VARCHAR(255),
-    Country VARCHAR(255),
-    Budget VARCHAR(255),
-    DomesticWeekend VARCHAR(255),
-    DomesticWeekendGrossDate VARCHAR(255),
-    WorldwideGross VARCHAR(255)
-);
 
 
 

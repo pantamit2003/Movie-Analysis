@@ -95,7 +95,7 @@ The IMDB Top 250 Movies Excel file serves as a valuable resource for movie enthu
 
 
 # code 
-  For the  rest of code,check imbd project.sqlfile
+  For the  rest of code,check https://github.com/pantamit2003/Movie-Analysis/blob/main/imbd%20project.sql
 
 
 

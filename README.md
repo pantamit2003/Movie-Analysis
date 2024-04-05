@@ -6,6 +6,7 @@ The IMDB Top 250 Movies Excel file contains a comprehensive list of the top-rate
 
  # Features:
 •	Movie Names: The names of the top-rated movies on IMDb are listed in this column.
+
 •	Ratings: The ratings column displays the IMDb ratings for each movie, indicating the average score given by users.
 •	Count of Ratings: This column shows the total number of ratings submitted by users for each movie.
 •	Release Date: The release date column specifies the date when each movie was officially released.

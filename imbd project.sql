@@ -148,6 +148,13 @@ order by rating desc;
 
 
 
+/* Top 5 movies based on worldwidegross */
+select `MovieName`,sum(WorldwideGross),
+  rank() over(order by sum(WorldwideGross) desc) as "Movie Rank"
+  from movies
+  group by `MovieName`
+  limit 5;   
+
 
 
 

@@ -45,11 +45,11 @@ The IMDB Top 250 Movies Excel file provides valuable insights for movie enthusia
 
 # Approach Used:
 
-1.Auto Increment Movie ID: An auto_increment column has been created for the movie ID, which will act as the primary key.
+1. Auto Increment Movie ID: An auto_increment column has been created for the movie ID, which will act as the primary key.
 
-2.Not Null Constraint on Sales Column: A not null constraint has been applied to the sales column, making the sales value compulsory for each entry.
+2. Not Null Constraint on Sales Column: A not null constraint has been applied to the sales column, making the sales value compulsory for each entry.
 
-3.Transformed Release Date: The release date column has been transformed into separate columns:
+3. Transformed Release Date: The release date column has been transformed into separate columns:
 
   Month Column: For the movie's release month.
   
@@ -57,7 +57,7 @@ The IMDB Top 250 Movies Excel file provides valuable insights for movie enthusia
   
   Country Column: For the movie's release country.
   
-4.Excel Text to Columns Transformation: The Excel Text to Columns feature has been used for this transformation, which allows data to be split into separate columns.
+4. Excel Text to Columns Transformation: The Excel Text to Columns feature has been used for this transformation, which allows data to be split into separate columns.
 
 
 # Question to Answer 

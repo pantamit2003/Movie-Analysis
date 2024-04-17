@@ -52,7 +52,9 @@ The IMDB Top 250 Movies Excel file provides valuable insights for movie enthusia
 3.Transformed Release Date: The release date column has been transformed into separate columns:
 
   Month Column: For the movie's release month.
+  
   Year Column: For the movie's release year.
+  
   Country Column: For the movie's release country.
 4.Excel Text to Columns Transformation: The Excel Text to Columns feature has been used for this transformation, which allows data to be split into separate columns.
 

@@ -56,6 +56,7 @@ The IMDB Top 250 Movies Excel file provides valuable insights for movie enthusia
   Year Column: For the movie's release year.
   
   Country Column: For the movie's release country.
+  
 4.Excel Text to Columns Transformation: The Excel Text to Columns feature has been used for this transformation, which allows data to be split into separate columns.
 
 

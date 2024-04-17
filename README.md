@@ -45,19 +45,16 @@ The IMDB Top 250 Movies Excel file provides valuable insights for movie enthusia
 
 # Approach Used:
 
-1. Auto Increment Movie ID: Ek auto_increment column banaya gaya hai movie ID ke liye, jo primary key ke roop mein kaam karega.
+1.Auto Increment Movie ID: An auto_increment column has been created for the movie ID, which will act as the primary key.
 
-2. Not Null Constraint on Sales Column: Sales column par not null constraint lagaya gaya hai, jisse har ek entry mein sales ki value compulsory hai.
+2.Not Null Constraint on Sales Column: A not null constraint has been applied to the sales column, making the sales value compulsory for each entry.
 
-3. Transformed Release Date: Release date column ke data ko alag-alag columns mein divide kiya gaya hai:
+3.Transformed Release Date: The release date column has been transformed into separate columns:
 
-       Month Column: Movie release month ke liye. 
-
-       Year Column: Movie release year ke liye. 
-
-       Country Column: Movie release country ke liye.
-
-4. Excel Text to Columns Transformation: Is transformation ke liye Excel ke Text to Columns feature ka istemal kiya gaya hai, jisse data ko alag-alag columns mein split kiya ja sakta hai.
+  Month Column: For the movie's release month.
+  Year Column: For the movie's release year.
+  Country Column: For the movie's release country.
+4.Excel Text to Columns Transformation: The Excel Text to Columns feature has been used for this transformation, which allows data to be split into separate columns.
 
 
 # Question to Answer 

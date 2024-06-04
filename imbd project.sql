@@ -64,10 +64,9 @@ from movies
 group by country 
 order by 'Total revenue' desc;  
 
-/* 6.	How many movies have the minimum budget and how many have the maximum budget? */  
+/* 6.	which movies have the minimum budget and how many have the maximum budget? */  
 
 select avg(Budget) from movies;   
-
 select 
 MovieName,
 case 
@@ -94,12 +93,18 @@ from movies;
 /* 8.	Which movie has the highest domestic gross? */
 select * from movies;
 
-SELECT MAX(CAST(DomesticWeekend AS SIGNED)) FROM movies;
+SELECT MovieName,MAX(CAST(DomesticWeekend AS SIGNED)) AS DOMESTIC_GROSS FROM movies
+GROUP BY MovieName 
+ORDER BY DOMESTIC_GROSS DESC 
+LIMIT 1;
 
  
 /* 9.	Which movie has the highest worldwide gross? */
 
-SELECT MAX(CAST(WorldwideGross AS SIGNED)) as 'Highest world wide gross' FROM movies;  
+SELECT  MovieName,MAX(CAST(WorldwideGross AS SIGNED)) as 'Highest world wide gross' FROM movies
+GROUP BY MovieName 
+ORDER BY 'Highest world wide gross' DESC
+LIMIT 1;
 
 /*10.	TOP 3  movie  that had the highest budget? */
 
@@ -147,24 +152,12 @@ where rating > 8.8
 order by rating desc; 
 
 
+select * from movies; 
 
 /* Top 5 movies based on worldwidegross */
 select `MovieName`,sum(WorldwideGross),
   rank() over(order by sum(WorldwideGross) desc) as "Movie Rank"
   from movies
   group by `MovieName`
-  limit 5;   
-
-
-
-
- 
- 
-
-
-
-
-
-
-
-
+  limit 5;  
+  

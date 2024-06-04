@@ -71,7 +71,7 @@ The IMDB Top 250 Movies Excel file provides valuable insights for movie enthusia
 
 5.	From which country has the highest revenue been generated?
 
-6.	How many movies have the minimum budget and how many have the maximum budget?
+6.	which movies have the minimum budget and how many have the maximum budget?
     
 7.	How many movies have the minimum domestic gross and how many have the maximum domestic gross?
 	
